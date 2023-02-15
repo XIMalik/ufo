@@ -10,7 +10,7 @@ export default function Home(){
   return (
     <div className="flex flex-col ">
       <Nav/>
-      <Hero/>
+      <Hero/> Hello worl
       <About /> Hello world
     </div>
   )
