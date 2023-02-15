@@ -1,0 +1,17 @@
+.name{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.logo{
+    font-family: 'Syncopate', sans-serif;}
+
+.work{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        padding: 10px 30px;
+        place-items: center;
+}
