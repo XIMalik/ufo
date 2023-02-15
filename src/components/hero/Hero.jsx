@@ -1,18 +1,11 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faFire, faMeteor, faArrowRightLong, faCircleUser } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightLong, faCircleUser } from '@fortawesome/free-solid-svg-icons'
 import './hero.css'
-import { useNavigate } from 'react-router-dom'
 import head from '/images/Group65.png'
 
 
 export default function Hero(){
-
-  const navigate = useNavigate()
-
-  const handleClicktoyt = () =>{
-        navigate("www.youtube.com")
-  }
 
   return (
    <div className="heroContainer flex gap-10 items-center flex-col justify-center mb-5">

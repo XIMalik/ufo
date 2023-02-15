@@ -8,9 +8,6 @@ import rndm from '/images/rndm.png'
 import mercy from '/images/mercy.png'
 import Nav from '../navbar/Nav'
 import './about.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
-
 
 export default function About(){
   return (
