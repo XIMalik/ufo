@@ -1,6 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightLong, faCircleUser } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faArrowRightLong, faCircleUser } from '@fortawesome/free-solid-svg-icons'
 import './hero.css'
 import head from '/images/Group65.png'
 
@@ -10,7 +10,7 @@ export default function Hero(){
   return (
    <div className="heroContainer flex gap-10 items-center flex-col justify-center mb-5">
     <div className="profile flex flex-col items-center p-3 col-span-1 text-center">
-                    <FontAwesomeIcon icon={faCircleUser} className="text-green-100 mb-7"/>
+                    {/* <FontAwesomeIcon icon={faCircleUser} className="text-green-100 mb-7"/> */}
                     <div className='w-[100px] h-[100px] mb-2 rounded-full bg-red-300 overflow-hidden'>
                         <img src={head} className="w-[100%] object-contain" alt="" />
                     </div>
@@ -29,7 +29,7 @@ export default function Hero(){
           <span className='font-extralight text-slate-400 text-md w-[800px]'>Tech enthusiast born out of an admiration for how the internet and software works
           </span>
           <div className='flex flex-col gap-3'>
-            <span className='about-text text-xs text-slate-500 font-light flex gap-2 align-center items-center'>Check out my socials <FontAwesomeIcon icon={faArrowRightLong} className="text-white"/></span>
+            <span className='about-text text-xs text-slate-500 font-light flex gap-2 align-center items-center'>Check out my socials</span>
             <div className='about-text flex gap-3'>
             <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><span className=' text-slate-400 text-md ease-out duration-500 hover:underline hover:text-green-100 underline-offset-8'>malikawesu.linkedin.com</span></a>          
             <a href="https://www.github.com/XIMalik" target="_blank" rel='noopener noreferrer'><span className=' text-slate-400 text-md ease-out duration-500 hover:underline hover:text-green-100 underline-offset-8'>malikawesu.github.com</span></a>          
