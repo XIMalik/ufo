@@ -1,6 +1,4 @@
 import React from 'react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faArrowRightLong, faCircleUser } from '@fortawesome/free-solid-svg-icons'
 import './hero.css'
 import head from '/images/Group65.png'
 
