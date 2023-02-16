@@ -1,6 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faFire, faMeteor } from '@fortawesome/free-solid-svg-icons'
 import './home.css'
 import Nav from '../../components/navbar/Nav'
 import Hero from '../../components/hero/Hero'
@@ -10,8 +8,8 @@ export default function Home(){
   return (
     <div className="flex flex-col ">
       <Nav/>
-      <Hero/> Hello worl
-      <About /> Hello world
+      <Hero/> 
+      <About />
     </div>
   )
 }
