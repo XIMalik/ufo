@@ -12,9 +12,9 @@ import './about.css'
 export default function About(){
   return (
     <div>
-        <div className="containe flex gap-10 flex-col justify-center items-center ">
+        <div className="containe z-0 flex gap-10 flex-col justify-center items-center mt-5">
             <div className='w-[100%] max-w-[1024px] grid grid-cols-6'>
-                <div className="work col-span-6">
+                <div className="work flex flex-wrap justify-center col-span-6 p-5">
                     <div className="item w-[300px] h-[200px] rounded-lg overflow-hidden">
                         <img src={phone} alt="" className='w-[100%] object-cover ease-in duration-150 delay-75 hover:-translate-y-6'/>
                     </div>
