@@ -7,6 +7,8 @@ export default function Hero(){
 
   return (
    <div className="heroContainer flex gap-10 items-center flex-col justify-center mb-5">
+   
+   
     <div className="profile flex flex-col items-center p-3 col-span-1 text-center bg-white rounded-md">
                     {/* <FontAwesomeIcon icon={faCircleUser} className="text-green-100 mb-7"/> */}
                     <div className='w-[100px] h-[100px] mb-2 rounded-full bg-red-300 overflow-hidden'>
@@ -18,7 +20,7 @@ export default function Hero(){
                     <span className='about-text text-slate-400 font-light text-sm mb-7'>+234-818-099-1568</span>
                     <span className='text-slate-500 text-lg mb-7 w-[150px]'>Web Developer & UI Designer</span>
                     <span className='text-slate-400 text-sm font-light'>Junior Frontend Developer</span>
-                </div> 
+        </div> 
     
     <div className="heroWrapper w-[100%] max-w-[1024px] ">
         <div className="flex justify-center gap-5 text-center mb-5">
