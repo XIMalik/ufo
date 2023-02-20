@@ -6,3 +6,10 @@
 .about-text{
     font-family: 'Josefin Sans', sans-serif; 
 }
+
+.tech{
+    box-shadow: 1px 10px 133px -40px rgba(250,40,40,0.75);
+-webkit-box-shadow: 1px 10px 133px -40px rgba(250,40,40,0.75);
+-moz-box-shadow: 1px 10px 133px -40px rgba(250,40,40,0.75);
+
+}

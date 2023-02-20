@@ -17,7 +17,8 @@ export default function Hero(){
                     </div>
                     
                     <h1 className=" logo text-center text-[12px] text-black">Malik Awesu</h1>
-                    <span className='text-slate-700 font-regular text-xs mb-3'>Lagos, Nigeria</span>
+                    <span className='text-slate-700 font-regular text-xs mb-7'>Lagos, Nigeria</span>
+                    <span className='text-slate-700 font-regular text-sm mb-1'>abdulmalikawesu@gmail.com</span>
                     <span className='text-slate-700 font-regular text-sm mb-7'>+234-818-099-1568</span>
                     <span className='text-black text-lg mb-7 w-[150px]'>Web Developer & UI Designer</span>
         </div> 
@@ -41,8 +42,8 @@ export default function Hero(){
           
         </div>
     </div>
-      <div className="flex bg-green-200 justify-evenly align-center items-center w-[100%] mb-5 mt-5">
-                <div className=' bg-white sm:bg-[#080707]  rounded-xl'>
+      <div className="flex justify-evenly align-center items-center w-[100%] mb-5 mt-5">
+                <div className='tech sm:bg-[#080707]  rounded-xl  border-r-[0.5px] border-l-[0.5px] border-dashed border-white hover:border-green-300'>
                     <div className="flex justify-center align-center items-center gap-3 py-5 px-10">
 
                     <div> 
