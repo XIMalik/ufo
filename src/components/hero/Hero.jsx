@@ -10,7 +10,7 @@ export default function Hero(){
    <div className="heroContainer flex gap-3 items-center flex-col justify-center mb-5">
    
    
-    <div className="profile flex flex-col items-center p-10 col-span-1 text-center border-[0.5px] border-solid borde-black rounded-md">
+    <div className="profile flex flex-col items-center p-10 col-span-1 text-center bg-gradient-to-br from-green-100 to-[#FAF9F6] rounded-md">
                     {/* <FontAwesomeIcon icon={faCircleUser} className="text-green-100 mb-7"/> */}
                     <div className='w-[100px] h-[100px] mb-2 rounded-full bg-red-300 overflow-hidden'>
                         <img src={head} className="w-[100%] object-contain" alt="" />
@@ -41,7 +41,7 @@ export default function Hero(){
           
         </div>
     </div>
-      <div className="flex bg-gradient-to-r from-blue-200 to-red-200 justify-evenly align-center items-center w-[100%] mb-5 mt-5">
+      <div className="flex bg-gradient-to-r from-green-100 to-[#FAF9F6] justify-evenly align-center items-center w-[100%] mb-5 mt-5">
                 <div className='tech bg-white  rounded-xl'>
                     <div className="flex justify-center align-center items-center gap-3 py-5 px-10">
 
