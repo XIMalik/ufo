@@ -1,6 +1,9 @@
 import React from 'react'
 import './hero.css'
 import head from '/images/Group65.png'
+import github from '/images/github.png'
+import dribble from '/images/dribbble.png'
+import linked from '/images/linkedin.png'
 
 
 export default function Hero(){
@@ -30,13 +33,10 @@ export default function Hero(){
         <div className="description px-10 flex flex-col gap-5 justify-center">
           <span className='about-text text-lg text-slate-700 text-md w-content text-center leading-7 mt-2 mb-2 sm:mt-0 sm:mb-0'>Tech enthusiast born out of an admiration for how the internet and software works
           </span>
-          <div className='flex flex-col w-[100%]  gap-3'>
-            <span className='about-text text-xs text-slate-500 font-light text-center'>Check out my socials</span>
-            <div className='about-text flex flex-col sm:flex-row gap-3 justify-center text-center w-[100%]'>
-                <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><span className=' text-slate-700 text-md ease-out duration-500 hover:underline hover:text-blue-500 underline-offset-8'>malikawesu.linkedin.com</span></a>          
-                <a href="https://www.github.com/XIMalik" target="_blank" rel='noopener noreferrer'><span className=' text-slate-700 text-md ease-out duration-500 hover:underline hover:text-slate-900-100 underline-offset-8'>malikawesu.github.com</span></a>          
-                <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><span className=' text-slate-700 text-md ease-out duration-500 hover:underline hover:text-red-300 underline-offset-8'>malikawesu.dribble.com</span></a>              
-            </div>
+          <div className='flex justify-center align-center items-center w-[100%] gap-3'>
+                <a href="https://www.github.com/XIMalik" target="_blank" rel='noopener noreferrer'><img src={github} alt="" className='w-[50%]'/></a>          
+                <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={linked} alt="" className='w-[50%]'/></a>          
+                <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={dribble} alt="" className='w-[50%]' /></a>          
           </div>
           
         </div>
