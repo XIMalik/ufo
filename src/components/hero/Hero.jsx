@@ -13,7 +13,7 @@ export default function Hero(){
    <div className="heroContainer flex gap-3 items-center flex-col justify-center mb-5">
    
    
-    <div className="profile flex flex-col items-center p-10 col-span-1 text-center bg-gradient-to-br from-green-100 to-[#FAF9F6] rounded-md">
+    <div className="profile flex flex-col items-center p-10 col-span-1 text-center bg-gradient-to-br from-green-100 to-blue-100 rounded-md">
                     {/* <FontAwesomeIcon icon={faCircleUser} className="text-green-100 mb-7"/> */}
                     <div className='w-[100px] h-[100px] mb-2 rounded-full bg-red-300 overflow-hidden'>
                         <img src={head} className="w-[100%] object-contain" alt="" />
@@ -30,18 +30,21 @@ export default function Hero(){
             <h1 className="heroText text-2xl sm:text-3xl  p-0 m-0 text-black ease-out duration-500 hover:underline underline-offset-8">Web developer</h1>
             <h1 className="heroText text-2xl sm:text-3xl p-0 m-0 text-blue-500 ease-out duration-500 hover:underline underline-offset-8 ">User Interface Design</h1>
         </div>
-        <div className="description px-10 flex flex-col gap-5 justify-center">
-          <span className='about-text text-lg text-slate-700 text-md w-content text-center leading-7 mt-2 mb-2 sm:mt-0 sm:mb-0'>Tech enthusiast born out of an admiration for how the internet and software works
-          </span>
-          <div className='flex justify-center align-center items-center w-[100%] gap-3'>
-                <a href="https://www.github.com/XIMalik" target="_blank" rel='noopener noreferrer'><img src={github} alt="" className='w-[50%]'/></a>          
-                <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={linked} alt="" className='w-[50%]'/></a>          
-                <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={dribble} alt="" className='w-[50%]' /></a>          
-          </div>
-          
+        
+        <div className='flex flex-col gap-3 justify-center items-center'>
+            <span className='about-text flex justify-center text-lg text-slate-700 text-md w-content text-center leading-7 mt-2 mb-2 sm:mt-0 sm:mb-0'>Tech enthusiast born out of an admiration for how the internet and software work</span>
+            <div className='p-1 rounded-md bg-gradient-to-r from-green-100 to-blue-100'>
+                <div className='flex py-5 px-10 rounded-3xl bg-white justify-center items-center gap-10 w-[100%]'>
+                        <a href="https://www.github.com/XIMalik" target="_blank" rel='noopener noreferrer'><img src={github} alt="" className='w-[100%] ease-in-out duration-300 hover:scale-110'/></a>          
+                        <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={linked} alt="" className=''/></a>          
+                        <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={dribble} alt="" className='' /></a>          
+                </div>
+            </div>
         </div>
+          
+          
     </div>
-      <div className="flex bg-gradient-to-r from-green-100 to-[#FAF9F6] justify-evenly align-center items-center w-[100%] mb-5 mt-5">
+      <div className="flex bg-gradient-to-r from-white to-blue-100 justify-evenly align-center items-center w-[100%] mb-5 mt-5">
                 <div className='tech bg-white  rounded-xl'>
                     <div className="flex justify-center align-center items-center gap-3 py-5 px-10">
 
