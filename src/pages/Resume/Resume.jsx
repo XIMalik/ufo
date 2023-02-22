@@ -8,9 +8,9 @@ import './r.css'
 export default function Resume(){
 
   return (
-    <div>
+    <div className='bg-gradient-to-br from-green-100 to-blue-100'>
         <Nav />
-        <div className='flex flex-col justify-center items-center py-5 bg-gradient-to-br from-green-100 to-blue-100'>
+        <div className='flex flex-col justify-center items-center py-5'>
             <a href={resumepdf} download className='text-xs mb-5 sticky top-14 bg-white text-black py-2 px-5 rounded-xl ease-in duration-300 hover:bg-blue-50'>Download PDF</a>
             <img src={resume} alt="" className='mx-auto'/>
         </div>
