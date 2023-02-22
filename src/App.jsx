@@ -10,7 +10,7 @@ import {
 
 
 import Home from './pages/Home/Home';
-import About from './components/about/About';
+import Resume from './pages/Resume/Resume';
 
 
 function App(){
@@ -18,7 +18,7 @@ function App(){
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/aboutme" element={<About/>}/>
+        <Route path="/myresume" element={<Resume/>}/>
       </Routes>
     </BrowserRouter>
   );

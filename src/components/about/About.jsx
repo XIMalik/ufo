@@ -40,7 +40,7 @@ export default function About(){
                 </div>
             </div>
 
-            <div className='flex flex-col items-center align-center justify-center py-5 ease-in duration-200 bg-blue-100'>
+            <div className='flex flex-col items-center align-center justify-center py-5 ease-in duration-200 bg-green-50'>
                 <span className='logo text-black text-xs px-5 border-r-[0.5px] border-l-[0.5px] border-dashed border-slate-500'>User Interface Designs</span>
                 <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-[1024px] p-10">
                     <div className='col-span-1 h-[300px] overflow-hidden ease-in-out duration-300 bg-white hover:bg-blue-200 p-5 rounded-lg'>
