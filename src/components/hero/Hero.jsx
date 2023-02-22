@@ -28,16 +28,16 @@ export default function Hero(){
     <div className="heroWrapper w-[100%] max-w-[1024px]">
         <div className="flex justify-center gap-5 text-center mb-2 p-5">
             <h1 className="heroText text-2xl sm:text-3xl  p-0 m-0 text-black ease-out duration-500 hover:underline underline-offset-8">Web developer</h1>
-            <h1 className="heroText text-2xl sm:text-3xl p-0 m-0 text-blue-500 ease-out duration-500 hover:underline underline-offset-8 ">User Interface Design</h1>
+            <h1 className="heroText text-2xl sm:text-3xl p-0 m-0 text-red-100 ease-out duration-500 hover:underline underline-offset-8 ">User Interface Design</h1>
         </div>
         
         <div className='flex flex-col gap-3 justify-center items-center'>
-            <span className='about-text flex justify-center text-lg text-slate-700 text-md w-content text-center leading-7 mt-2 mb-2 sm:mt-0 sm:mb-0'>Tech enthusiast born out of an admiration for how the internet and software work</span>
+            <span className='about-text flex justify-center text-lg text-slate-700 text-md w-content text-center leading-7 px-5 mt-2 mb-2 sm:mt-0 sm:mb-0'>Tech enthusiast born out of an admiration for how the internet and software work</span>
             <div className='p-1 rounded-md bg-gradient-to-r from-green-100 to-blue-100'>
                 <div className='flex py-5 px-10 rounded-3xl bg-white justify-center items-center gap-10 w-[100%]'>
                         <a href="https://www.github.com/XIMalik" target="_blank" rel='noopener noreferrer'><img src={github} alt="" className='w-[100%] ease-in-out duration-300 hover:scale-110'/></a>          
-                        <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={linked} alt="" className=''/></a>          
-                        <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={dribble} alt="" className='' /></a>          
+                        <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={linked} alt="" className='w-[100%] ease-in-out duration-300 hover:scale-110'/></a>          
+                        <a href="https://www.linkedin.com/in/malik-awesu" target="_blank" rel='noopener noreferrer'><img src={dribble} alt="" className='w-[100%] ease-in-out duration-300 hover:scale-110' /></a>          
                 </div>
             </div>
         </div>
