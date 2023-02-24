@@ -4,6 +4,7 @@ import Nav from '../../components/navbar/Nav'
 import Hero from '../../components/hero/Hero'
 import About from '../../components/about/About'
 import Me from '../../components/aboutme/Me'
+import Web from '../../components/Web/Web'
 
 export default function Home(){
   return (
@@ -12,6 +13,7 @@ export default function Home(){
       <Me/> 
       <Hero/> 
       <About />
+      <Web />
     </div>
   )
 }
