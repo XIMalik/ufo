@@ -1,6 +1,5 @@
 import React from "react";
 import "./hero.css";
-import head from "/images/Group65.png";
 import github from "/images/github.png";
 import dribble from "/images/dribbble.png";
 import linked from "/images/linkedin.png";
