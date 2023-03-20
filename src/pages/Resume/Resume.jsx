@@ -6,6 +6,8 @@ import "./r.css";
 import { useNavigate } from "react-router-dom";
 
 export default function Resume() {
+  //reveal header on scroll up?
+
   const nav = useNavigate();
   const go = () => {
     nav("/mywork");

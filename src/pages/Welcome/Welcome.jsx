@@ -2,6 +2,7 @@ import React from "react";
 import head from "/images/headshot.png";
 import Nav from "../../components/navbar/Nav";
 import { useNavigate } from "react-router-dom";
+import "./w.css";
 
 export default function Welcome() {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ export default function Welcome() {
     navigate("/mywork");
   };
   return (
-    <div>
+    <div className="bgg min-h-screen">
       <Nav />
       <div className="flex py-5 flex-col gap-5 justify-center items-center align-center">
         <div className="flex flex-wrap gap-3 justify-center items-center mt-auto">

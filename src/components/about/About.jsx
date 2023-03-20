@@ -20,42 +20,42 @@ export default function About() {
             Some of my work
           </span>
           <div className="work flex flex-wrap justify-center col-span-6 p-10">
-            <div className="item md:w-[300px] md:h-[200px] w-[250px] h-[200px] rounded-lg overflow-hidden">
+            <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px] rounded-lg overflow-hidden">
               <img
                 src={phone}
                 alt=""
                 className="w-[100%] object-cover ease-in-out duration-300 hover:-translate-y-72"
               />
             </div>
-            <div className="item md:w-[300px] md:h-[200px] w-[250px] h-[200px] rounded-lg overflow-hidden">
+            <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px] rounded-lg overflow-hidden">
               <img
                 src={gar}
                 alt=""
                 className="w-[100%] object-cover ease-in duration-150 hover:-translate-y-6"
               />
             </div>
-            <div className="item md:w-[300px] md:h-[200px] w-[250px] h-[200px]  rounded-lg overflow-hidden">
+            <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px]  rounded-lg overflow-hidden">
               <img
                 src={car}
                 alt=""
                 className="w-[100%] object-cover ease-in duration-300 hover:-translate-y-72"
               />
             </div>
-            <div className="item md:w-[300px] md:h-[200px] w-[250px] h-[200px] rounded-lg overflow-hidden">
+            <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px] rounded-lg overflow-hidden">
               <img
                 src={web}
                 alt=""
                 className="w-[100%] object-cover ease-in duration-150 hover:-translate-y-6"
               />
             </div>
-            <div className="item md:w-[300px] md:h-[200px] w-[250px] h-[200px]  rounded-lg overflow-hidden">
+            <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px]  rounded-lg overflow-hidden">
               <img
                 src={mercy}
                 alt=""
                 className="w-[100%] object-cover ease-in duration-300 hover:-translate-y-8"
               />
             </div>
-            <div className="item md:w-[300px] md:h-[200px] w-[250px] h-[200px]  rounded-lg overflow-hidden">
+            <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px]  rounded-lg overflow-hidden">
               <img
                 src={rndm}
                 alt=""
