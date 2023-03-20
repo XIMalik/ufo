@@ -3,6 +3,7 @@ import head from "/images/headshot.png";
 import Nav from "../../components/navbar/Nav";
 import { useNavigate } from "react-router-dom";
 import "./w.css";
+import GoToTop from "../../components/GoToTop/GoToTop";
 
 export default function Welcome() {
   const navigate = useNavigate();
@@ -16,6 +17,7 @@ export default function Welcome() {
   return (
     <div className="bgg min-h-screen">
       <Nav />
+      <GoToTop />
       <div className="flex py-5 flex-col gap-5 justify-center items-center align-center">
         <div className="flex flex-wrap gap-3 justify-center items-center mt-auto">
           <div className="profile flex flex-col items-center p-10 col-span-1 text-center bg-gradient-to-br from-green-100 to-blue-100 rounded-md">

@@ -4,6 +4,7 @@ import resume from "/images/resume.png";
 import resumepdf from "/images/resume.pdf";
 import "./r.css";
 import { useNavigate } from "react-router-dom";
+import GoToTop from "../../components/GoToTop/GoToTop";
 
 export default function Resume() {
   //reveal header on scroll up?
@@ -15,6 +16,7 @@ export default function Resume() {
   return (
     <div className="bg-gradient-to-br from-green-100 to-blue-100 min-h-screen">
       <Nav />
+      <GoToTop />
       <div className="flex flex-col justify-center items-center py-5">
         <a
           href={resumepdf}
