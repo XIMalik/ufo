@@ -1,5 +1,6 @@
 import React from "react";
 import acq from "/images/grfxn.png";
+import vabk from "/images/favicon.ico";
 
 export default function Web() {
   return (
@@ -19,7 +20,7 @@ export default function Web() {
             </a>
             <span className="mb-5 text-sm">
               I use memes all the time, so i made a meme library project for
-              creating custom memes. Check it out, it's dope
+              creating custom memes.
             </span>
             <a
               href="https://grfxni66.netlify.app"
@@ -31,14 +32,14 @@ export default function Web() {
           <div className="col-span-1 flex flex-col h-content overflow-hidden ease-in-out duration-300 hover:bg-slate-100 bg-white border-[0.5px] border-slate-100  p-5 rounded-lg text-center">
             <a href="https://grfxxni66.netlify.app">
               <img
-                src={acq}
+                src={vabk}
                 alt=""
-                className="w-[100%] mb-5 object-cover ease-out duration-150 hover:scale-110"
+                className="w-[20%] mb-5 object-cover mx-auto ease-out duration-150 hover:scale-110"
               />
             </a>
             <span className="mb-5 text-sm">
-              A tourism/city guide website for the state of Abeokuta. With plans
-              for reservation and bookings to be implemented
+              A tourist/guide website for the city of Abeokuta. Future
+              implementations include villa reservation
             </span>
             <a
               href="https://vabk.netlify.app"

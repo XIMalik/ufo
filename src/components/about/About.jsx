@@ -19,7 +19,7 @@ export default function About() {
           <span className="col-span-6 text-black text-xs px-5 border-r-[0.5px] border-l-[0.5px] border-dashed border-slate-500">
             Some of my work
           </span>
-          <div className="work flex flex-wrap justify-center col-span-6 p-10">
+          <div className="work flex flex-wrap justify-center gap-1 col-span-6 p-10">
             <div className="item md:w-[300px] md:h-[200px] w-[350px] h-[250px] rounded-lg overflow-hidden">
               <img
                 src={phone}

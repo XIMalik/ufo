@@ -29,11 +29,13 @@ export default function Welcome() {
             <span className="text-slate-700 font-regular text-xs mb-7">
               Lagos, Nigeria
             </span>
-            <span className="text-slate-700 font-regular text-sm mb-1">
-              abdulmalikawesu@gmail.com
+            <span className="text-slate-700 font-regular text-sm mb-1 hover:text-green-100 ease-in-out duration-200">
+              <a href="mailto:abdulmalikawesu@gmail.com">
+                abdulmalikawesu@gmail.com
+              </a>
             </span>
-            <span className="text-slate-700 font-regular text-sm mb-7">
-              +234-818-099-1568
+            <span className="text-slate-700 font-regular text-sm mb-7 hover:text-green-100 ease-in-out duration-200">
+              <a href="tel:+234-818-099-1568">+234 818 099 1568</a>
             </span>
             <span className="text-black text-md mb-7 w-[150px]">
               Frontend Developer & UI Designer

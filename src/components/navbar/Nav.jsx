@@ -22,11 +22,6 @@ export default function Nav() {
           >
             Malik Awesu
           </h1>
-          {/* <div className="nav-text flex gap-4 text-gray-300">
-                <span onClick={goAbout} className="ease-out duration-500 hover:underline hover:text-green-100 underline-offset-8">Work</span>
-                <span onClick={goAbout} className="ease-out duration-300 hover:underline hover:text-green-100 underline-offset-8">About</span>
-                <span onClick={goAbout} className="ease-out duration-500 hover:underline hover:text-green-100 underline-offset-8">Contact</span>
-            </div> */}
         </div>
       </div>
     </div>
