@@ -11,7 +11,7 @@ export default function Web() {
         </span>
         <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-[1024px] p-10">
           <div className="col-span-1 flex flex-col h-content overflow-hidden ease-in-out duration-300 hover:bg-slate-100 bg-white border-[0.5px] border-slate-100  p-5 rounded-lg text-center">
-            <a href="https://grfxxni66.netlify.app">
+            <a href="https://grfxni66.netlify.app" target="_blank">
               <img
                 src={acq}
                 alt=""
@@ -19,18 +19,19 @@ export default function Web() {
               />
             </a>
             <span className="mb-5 text-sm">
-              I use memes all the time, so i made a meme library project for
-              creating custom memes.
+              I use memes all the time while I text, so with images gotten from
+              an API, i created an online custom meme creator
             </span>
-            <a
+            {/* <a
               href="https://grfxni66.netlify.app"
               className="text-sm text-slate-300"
+              target="_blank"
             >
               Check it out
-            </a>
+            </a> */}
           </div>
           <div className="col-span-1 flex flex-col h-content overflow-hidden ease-in-out duration-300 hover:bg-slate-100 bg-white border-[0.5px] border-slate-100  p-5 rounded-lg text-center">
-            <a href="https://grfxxni66.netlify.app">
+            <a href="https://vabk.netlify.app" target="_blank">
               <img
                 src={vabk}
                 alt=""
@@ -38,15 +39,16 @@ export default function Web() {
               />
             </a>
             <span className="mb-5 text-sm">
-              A tourist/guide website for the city of Abeokuta. Future
+              A tourist guide website for the city of Abeokuta. Future
               implementations include villa reservation
             </span>
-            <a
+            {/* <a
               href="https://vabk.netlify.app"
               className="text-sm text-slate-300"
+              target="_blank"
             >
               Check it out
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

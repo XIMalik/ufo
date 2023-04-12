@@ -15,7 +15,7 @@ export default function Welcome() {
     navigate("/mywork");
   };
   return (
-    <div className="bgg min-h-screen">
+    <div className="min-h-screen">
       <Nav />
       <GoToTop />
       <div className="flex py-5 flex-col gap-5 justify-center items-center align-center">

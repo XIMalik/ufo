@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../../components/navbar/Nav";
-import resume from "/images/resume.png";
-import resumepdf from "/images/resume.pdf";
+import resume from "/images/Resume.svg";
+import resumepdf from "/images/AbdulmalikAwesu.pdf";
 import "./r.css";
 import { useNavigate } from "react-router-dom";
 import GoToTop from "../../components/GoToTop/GoToTop";

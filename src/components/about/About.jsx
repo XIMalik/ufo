@@ -14,7 +14,7 @@ import "./about.css";
 export default function About() {
   return (
     <div>
-      <div className="containe z-0 flex flex-col justify-center items-center mt-5">
+      <div className="containe z-0 flex flex-col justify-center items-center mt-5 py-5">
         <div className="w-[100%] max-w-[1024px] grid grid-cols-6 place-items-center ease-in duration-200 py-5 border-[0.5px] border-b-0 border-slate-100">
           <span className="col-span-6 text-black text-xs px-5 border-r-[0.5px] border-l-[0.5px] border-dashed border-slate-500">
             Some of my work

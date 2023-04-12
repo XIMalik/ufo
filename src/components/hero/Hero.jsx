@@ -8,8 +8,8 @@ export default function Hero() {
   // bg-gradient-to-b from-[#080707] to-slate-800
 
   return (
-    <div className="heroContainer flex gap-10 items-center justify-center align-center mb-5">
-      <div className="flex justify-center gap-5 items-center mb-5 mt-5">
+    <div className="heroContainer flex flex-col md:flex-row gap-10 items-center justify-center align-center mb-5 mt-10">
+      <div className="flex flex-col md:flex-row justify-center gap-5 items-center mb-5 mt-5">
         <div className="p-1 rounded-md bg-gradient-to-r from-green-100 to-blue-100">
           <div className="flex py-5 px-10 rounded-3xl bg-white justify-center items-center gap-10 w-[100%]">
             <a
@@ -48,10 +48,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-start align-left gap-1">
-        <span className="text-center text-sm text-slate-300 rounded-lg mt-5">
-          Technologies I work with
-        </span>
+      <div className="flex items-start align-left gap-1">
         <div className="flex flex-wrap justify-center align-center items-center gap-3 py-5">
           <div className="">
             <img
