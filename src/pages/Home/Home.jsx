@@ -9,7 +9,7 @@ import GoToTop from "../../components/GoToTop/GoToTop";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex bgon flex-col">
       <Nav />
       <GoToTop />
       <About />

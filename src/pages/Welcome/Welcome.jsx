@@ -1,5 +1,5 @@
 import React from "react";
-import head from "/images/headshot.png";
+import head from "/images/headshot2.jpg";
 import Nav from "../../components/navbar/Nav";
 import { useNavigate } from "react-router-dom";
 import "./w.css";
@@ -15,7 +15,7 @@ export default function Welcome() {
     navigate("/mywork");
   };
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bgon">
       <Nav />
       <GoToTop />
       <div className="flex py-5 flex-col gap-5 justify-center items-center align-center">
