@@ -60,8 +60,11 @@ export default function Web() {
               />
             </a>
             <span className="mb-5 text-sm">
-              Drawing data from openweather API, WWW allws you get weather from
-              any city in milliseconds
+              Drawing data from openweather API, WWW allows you get weather
+              information from any city in milliseconds. <br />
+              <span className="text-sm text-black/20">
+                Please view on a laptop
+              </span>
             </span>
             {/* <a
               href="https://vabk.netlify.app"
