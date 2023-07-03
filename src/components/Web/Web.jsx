@@ -1,6 +1,7 @@
 import React from "react";
 import acq from "/images/grfxn.png";
 import vabk from "/images/favicon.ico";
+import clouds from "/images/cloudy-day.png";
 
 export default function Web() {
   return (
@@ -41,6 +42,26 @@ export default function Web() {
             <span className="mb-5 text-sm">
               A tourist guide website for the city of Abeokuta. Future
               implementations include villa reservation
+            </span>
+            {/* <a
+              href="https://vabk.netlify.app"
+              className="text-sm text-slate-300"
+              target="_blank"
+            >
+              Check it out
+            </a> */}
+          </div>
+          <div className="col-span-1 flex flex-col h-content overflow-hidden ease-in-out duration-300 hover:bg-slate-100 bg-white border-[0.5px] border-slate-100  p-5 rounded-lg text-center">
+            <a href="https://worldww.netlify.app" target="_blank">
+              <img
+                src={clouds}
+                alt=""
+                className="w-[20%] mb-5 object-cover mx-auto ease-out duration-150 hover:scale-110"
+              />
+            </a>
+            <span className="mb-5 text-sm">
+              Drawing data from openweather API, WWW allws you get weather from
+              any city in milliseconds
             </span>
             {/* <a
               href="https://vabk.netlify.app"
