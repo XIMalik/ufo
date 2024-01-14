@@ -8,10 +8,10 @@ export default function Hero() {
   // bg-gradient-to-b from-[#080707] to-slate-800
 
   return (
-    <div className="heroContainer flex flex-col md:flex-row gap-10 items-center justify-center align-center mb-5 mt-10">
-      <div className="flex flex-col md:flex-row justify-center gap-5 items-center mb-5 mt-5">
+    <div className="heroContainer flex flex-col md:flex-row gap-5 items-center justify-center align-center mb-5 mt-10">
+      <div className="flex flex-col md:flex-row justify-center gap-5 items-center">
         <div className="p-1 rounded-md bg-gradient-to-r from-green-100 to-blue-100">
-          <div className="flex py-5 px-10 rounded-3xl bg-white justify-center items-center gap-10 w-[100%]">
+          <div className="flex py-4 px-10 rounded-3xl bg-white justify-center items-center gap-10 w-[100%]">
             <a
               href="https://www.github.com/XIMalik"
               target="_blank"
@@ -34,22 +34,11 @@ export default function Hero() {
                 className="w-[100%] ease-in-out duration-300 hover:scale-110"
               />
             </a>
-            <a
-              href="https://www.linkedin.com/in/malik-awesu"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={dribble}
-                alt=""
-                className="w-[100%] ease-in-out duration-300 hover:scale-110"
-              />
-            </a>
           </div>
         </div>
       </div>
       <div className="flex items-start align-left gap-1">
-        <div className="flex flex-wrap justify-center align-center items-center gap-3 py-5">
+        <div className="flex flex-wrap justify-center align-center items-center gap-3 py-5 mx-3 sm:mx-0">
           <div className="">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
@@ -95,6 +84,16 @@ export default function Hero() {
           <div className="">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              className="w-8 ease-out duration-100 hover:scale-105"
+            />
+          </div>
+          <div className="">
+          <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-color-tal-revivo.png" alt="external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-color-tal-revivo"
+              className="w-8 ease-out duration-100 hover:scale-105"
+            />
+          </div>
+          <div className="">
+          <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-light-tal-revivo/48/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-light-tal-revivo.png" alt="external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-light-tal-revivo"
               className="w-8 ease-out duration-100 hover:scale-105"
             />
           </div>

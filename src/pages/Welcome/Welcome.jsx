@@ -1,5 +1,5 @@
 import React from "react";
-import head from "/images/headshot2.jpg";
+import head from "/images/headshot.jpg";
 import Nav from "../../components/navbar/Nav";
 import { useNavigate } from "react-router-dom";
 import "./w.css";
@@ -37,8 +37,8 @@ export default function Welcome() {
             <span className="text-slate-700 font-regular text-sm mb-7 hover:text-green-100 ease-in-out duration-200">
               <a href="tel:+234-818-099-1568">+234 818 099 1568</a>
             </span>
-            <span className="text-black text-md mb-7 w-[150px]">
-              Frontend Developer & UI Designer
+            <span className="text-slate-700 capitalize text-md mb-8 w-[150px]">
+              Full Stack Developer & UI Designer
             </span>
           </div>
         </div>

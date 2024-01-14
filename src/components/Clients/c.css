@@ -1,4 +1,4 @@
-.hover_item {
+.clients_item {
     position: relative;
     width: 100%;
   }
@@ -27,7 +27,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    color: white;
   }
 
   .divdiv h1{
@@ -41,7 +40,7 @@
 }
   
   /* Show the overlay on hover */
-  .hover_item:hover .overlay {
+  .clients_item:hover .overlay {
     opacity: 1; /* Set opacity to 1 (fully visible) when hovering */
     visibility: visible; /* t opacity to 1 when the overlay is visible */
   }

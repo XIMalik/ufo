@@ -1,7 +1,9 @@
 import React from "react";
 import acq from "/images/grfxn.png";
+import tbcio from "/images/screenshot_tbcio.png";
 import vabk from "/images/favicon.ico";
 import clouds from "/images/cloudy-day.png";
+import './w.css'
 
 export default function Web() {
   return (
@@ -74,8 +76,21 @@ export default function Web() {
               Check it out
             </a> */}
           </div>
+          <div className="col-span-1 hover_item sm:col-span-2 bg-white flex flex-col h-content overflow-hidden ease-in-out duration-300 hover:bg-slate-100 border-[0.5px] border-slate-100 rounded-lg text-center">
+            <img src={tbcio} alt="" />
+            <a href="https://tbcio.netlify.app" target="_blank">
+            <div className="overlay bg-black/10 backdrop-blur-sm ">
+              <div className="divdiv">
+                <h1>TBCIO</h1>
+                <span>An application that emulates banking and saving functionalities built with React and Django</span>
+              </div>
+            </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+
