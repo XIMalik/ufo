@@ -1,9 +1,6 @@
 import React from "react";
 import "./nav.css";
 import { useNavigate } from "react-router-dom";
-import React from 'react'
-import './nav.css'
-import { useNavigate } from 'react-router-dom'
 
 export default function Nav() {
   const navigate = useNavigate();
