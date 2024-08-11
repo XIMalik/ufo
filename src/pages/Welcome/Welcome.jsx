@@ -38,7 +38,7 @@ export default function Welcome() {
               <a href="tel:+234-818-099-1568">+234 818 099 1568</a>
             </span>
             <span className="text-slate-700 capitalize text-md mb-8 w-[150px]">
-              Full Stack Developer & UI Designer
+              Full Stack Developer <br/> UBA PLC
             </span>
           </div>
         </div>

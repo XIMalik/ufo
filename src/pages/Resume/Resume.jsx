@@ -1,14 +1,12 @@
 import React from "react";
 import Nav from "../../components/navbar/Nav";
 import resume from "/images/Resume.svg";
-import resumepdf from "/images/AbdulmalikAwesu.pdf";
+import resumepdf from "/images/Resume.pdf";
 import "./r.css";
 import { useNavigate } from "react-router-dom";
 import GoToTop from "../../components/GoToTop/GoToTop";
 
 export default function Resume() {
-  //reveal header on scroll up?
-
   const nav = useNavigate();
   const go = () => {
     nav("/mywork");

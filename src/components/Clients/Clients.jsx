@@ -1,7 +1,5 @@
 import React from "react";
 import ssmlr from "/images/screenshot_shelter.png";
-import vabk from "/images/favicon.ico";
-import clouds from "/images/cloudy-day.png";
 import './c.css'
 
 export default function Clients() {
