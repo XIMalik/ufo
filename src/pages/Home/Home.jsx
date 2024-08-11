@@ -6,7 +6,6 @@ import Web from "../../components/Web/Web";
 import GoToTop from "../../components/GoToTop/GoToTop";
 import UIDesigns from "../../components/UI/UIDesigns";
 import Clients from "../../components/Clients/Clients";
-UIDesigns
 
 export default function Home() {
   return (
