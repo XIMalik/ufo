@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 import React from "react";
 import "./nav.css";
 import { useNavigate } from "react-router-dom";
-=======
 import React from 'react'
 import './nav.css'
 import { useNavigate } from 'react-router-dom'
->>>>>>> 6f5d046c13cfe1222148fb5373663dab5f3cd41e
 
 export default function Nav() {
   const navigate = useNavigate();
@@ -19,7 +16,6 @@ export default function Nav() {
   };
 
   return (
-<<<<<<< HEAD
     <div className="navContainer z-40 flex justify-center  w-[100%] max-w-[1024] sticky top-0 mb-2 border-b-gray-100 border-[0.5px] bg-white border-solid ">
       <div className="navWrapper p-5 w-[100%] max-w-[1024px]">
         <div className="navbar flex  justify-center align-center text-center items-center">
@@ -29,7 +25,6 @@ export default function Nav() {
           >
             Malik Awesu
           </h1>
-=======
    <div className="navContainer z-40 flex justify-center bg-[#080707] w-[100%] max-w-[1024] sticky top-0 mb-2 border-gray-700 border-solid">
     <div className="navWrapper p-5 w-[100%] max-w-[1024px]">
         <div className="navbar flex  justify-between align-center items-center">
@@ -39,7 +34,6 @@ export default function Nav() {
                 <span onClick={goAbout} className="ease-out duration-300 hover:underline hover:text-green-100 underline-offset-8">About</span>
                 <span onClick={goAbout} className="ease-out duration-500 hover:underline hover:text-green-100 underline-offset-8">Contact</span>
             </div>
->>>>>>> 6f5d046c13cfe1222148fb5373663dab5f3cd41e
         </div>
       </div>
     </div>
