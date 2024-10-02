@@ -12,10 +12,10 @@ export default function Home() {
     <div className="flex bgon flex-col">
       <Nav />
       <GoToTop />
-      <UIDesigns />
+      <Hero/>
+      {/* <UIDesigns /> */}
       <Web />
       <Clients />
-      <Hero/>
     </div>
   );
 }

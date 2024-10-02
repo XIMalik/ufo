@@ -10,7 +10,7 @@ export default function Web() {
     <div className="flex justify-center items-center">
       <div className="flex w-[100%] max-w-[1024px] flex-col items-center align-center justify-center py-5 ease-in duration-200 border-[0.5px] border-t-0 border-slate-100">
         <span className="text-black text-xs px-5 border-r-[0.5px] border-l-[0.5px] border-dashed border-slate-500">
-          Web Dev Projects
+          Web Applications
         </span>
         <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-w-[1024px] p-10">
           <div className="col-span-1 flex flex-col h-content overflow-hidden ease-in-out duration-300 hover:bg-slate-100 bg-white border-[0.5px] border-slate-100  p-5 rounded-lg text-center">
